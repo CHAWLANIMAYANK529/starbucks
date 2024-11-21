@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4_nzZQJnJgduy8G_HRW4btSEL2vxG0B4&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <!-- Hero Section with Background Image -->
+    <div class="bg">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Start Your Day with Starbucks</h1>
+            <p>Get your hands on a tasty breakfast deal from just 249* before 11am.</p>
+            <div class="subheading">
+                <p>Whether you're a morning person or need a boost to start your day, we have the perfect coffee and breakfast combo just for you. From our signature brews to delicious pastries, enjoy a special deal before 11am every day.</p>
+            </div>
+            <a class="cta-button" href="menu.html">Explore Our Menu</a>
+
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#shop">Shop</a>
+        <a href="https://www.starbucks.com/stores-and-ordering/" target="_blank" class="order-button">Order Online</a>
+
+    </div>
+<!-- Menu Section -->
+<!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <div class="menu-heading">
+        <h2>Our Menu</h2>
+        <p>Explore our delicious range of coffee, snacks, beverages, and desserts.</p>
+    </div>
+    <div class="menu-grid">
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+            <img src="Starbucks.jpg" alt="Coffee">
+            <h3>Signature Coffee</h3>
+            <p>Rich and flavorful brewed coffee made from premium beans.</p>
+            <span class="price">₹149</span>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+            <img src="butter croissants.jpg" alt="Croissant">
+            <h3>Butter Croissant</h3>
+            <p>Flaky, buttery croissants perfect for pairing with coffee.</p>
+            <span class="price">₹99</span>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="menu-item">
+            <img src="breakfast combo.jpg" alt="Breakfast Combo">
+            <h3>Breakfast Combo</h3>
+            <p>Start your morning with a coffee and a hearty breakfast combo.</p>
+            <span class="price">₹249</span>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="menu-item">
+            <img src="latte.jpg" alt="Latte">
+            <h3>Classic Latte</h3>
+            <p>Perfectly steamed milk blended with our espresso for a creamy delight.</p>
+            <span class="price">₹179</span>
+        </div>
+
+        <!-- Menu Item 5 -->
+        <div class="menu-item">
+            <img src="sandwich.jpg" alt="Grilled Sandwich">
+            <h3>Grilled Sandwich</h3>
+            <p>Freshly toasted sandwich with cheese and veggies.</p>
+            <span class="price">₹129</span>
+        </div>
+
+        <!-- Menu Item 6 -->
+        <div class="menu-item">
+            <img src="frappe.jpg" alt="Chocolate Frappe">
+            <h3>Chocolate Frappe</h3>
+            <p>A delightful blend of coffee, chocolate, and ice – served chilled.</p>
+            <span class="price">₹199</span>
+        </div>
+
+        <!-- Menu Item 7 -->
+        <div class="menu-item">
+            <img src="muffin.jpg" alt="Blueberry Muffin">
+            <h3>Blueberry Muffin</h3>
+            <p>Soft, moist, and filled with juicy blueberries.</p>
+            <span class="price">₹89</span>
+        </div>
+
+        <!-- Menu Item 8 -->
+        <div class="menu-item">
+            <img src="iced tea.jpg" alt="Iced Tea">
+            <h3>Refreshing Iced Tea</h3>
+            <p>A refreshing blend of tea and citrus flavors, served cold.</p>
+            <span class="price">₹139</span>
+        </div>
+
+        <!-- Menu Item 9 -->
+        <div class="menu-item">
+            <img src="cake.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich, moist chocolate cake topped with creamy frosting.</p>
+            <span class="price">₹159</span>
+        </div>
+
+        <!-- Menu Item 10 -->
+        <div class="menu-item">
+            <img src="salad.jpg" alt="Caesar Salad">
+            <h3>Caesar Salad</h3>
+            <p>Crispy romaine lettuce, parmesan, and croutons with Caesar dressing.</p>
+            <span class="price">₹169</span>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-heading">
+        <h2>Contact Us</h2>
+        <p>Have a question? We'd love to hear from you. Reach out to us through the form below.</p>
+    </div>
+    <div class="contact-container">
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h3>Our Address</h3>
+            <p>Jaipur Rajasthan</p>
+            <h3>Email Us</h3>
+            <p>support@starbuckscoffee.com</p>
+            <h3>Call Us</h3>
+            <p>+91 12345 67890</p>
+        </div>
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</section>
+<!-- About Us Section -->
+<section id="about" class="about-section">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="about-us.jpg" alt="About Us">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                At Starbucks Coffee, we’re passionate about serving premium coffee and delightful treats to our customers. From sourcing the finest coffee beans to crafting the perfect cup, we ensure every sip is a celebration of quality and care.
+            </p>
+            <p>
+                Our mission is to create a welcoming space where people can connect, relax, and enjoy the little moments in life. Whether it’s your morning brew or an afternoon escape, Starbucks Coffee is here to make your day special.
+            </p>
+            <a class="learn-more" href="learn-more.html">Learn More</a>
+
+        </div>
+    </div>
+</section>
+<div class="search-bar">
+    <input type="text" id="locationSearch" placeholder="Search by city or ZIP code">
+    <button onclick="searchLocations()">Search</button>
+</div>
+
+<!-- Locations Section -->
+<section id="locations" class="locations-section">
+    <div class="locations-heading">
+        <h2>Our Locations</h2>
+        <p>Find your nearest Starbucks store and enjoy your favorite coffee.</p>
+    </div>
+    <div class="locations-container">
+        <!-- Store Details -->
+        <div class="store">
+            <img src="downtown.jpg" alt="Downtown Store">
+            <h3>Starbucks RajaPark</h3>
+            <p> Panchvati Circle , Jaipur </p>
+            <p>Open: 7:00 AM - 10:00 PM</p>
+            <a href="https://maps.app.goo.gl/wzDu6WF1Fo1YHZmh6" target="_blank">Get Directions</a>
+
+        </div>
+        
+        <div class="store">
+            <img src="downtown1.jpg" alt="Downtown Store">
+            <h3>Starbucks Mansarovar</h3>
+            <p> Mansarovar Jaipur</p>
+            <p>Open: 7:00 AM - 10:00 PM</p>
+            <a href="https://maps.app.goo.gl/zHbb3hzASLYe8TqP7" target="_blank">Get Directions</a>
+
+        </div>
+        
+        <div class="store">
+            <img src="downtown2.jpg" alt="Downtown Store">
+            <h3>Starbucks MalviyaNagar</h3>
+            <p>Malviya Nagar GT Jaipur</p>
+            <p>Open: 7:00 AM - 10:00 PM</p>
+            <a href="https://maps.app.goo.gl/1X7Y5b97j9XzKzk7A" target="_blank">Get Directions</a>
+
+        </div>
+        
+    </div>
+</section>
+<section id="shop" style="background-color: #f4f4f4; padding: 50px 0;">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; color: #333;">Shop Our Products</h2>
+        <p style="text-align: center; font-size: 18px; color: #666;">Explore our exclusive range of coffee, mugs, and merchandise.</p>
+        <div class="shop-items">
+            <!-- Product 1 -->
+            <div class="shop-item">
+                <img src="data:image/jpeg;base64,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" alt="Coffee Beans" class="shop-item-img">
+                <h3>Premium Coffee Beans</h3>
+                <p>Experience the rich aroma of freshly roasted coffee beans.</p>
+                <a href="https://www.starbucks.com/menu/at-home-coffee/whole-bean" target="_blank" class="shop-button">Buy Now</a>
+            </div>
+            <!-- Product 2 -->
+            <div class="shop-item">
+                <img src="data:image/jpeg;base64,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" alt="Starbucks Mug" class="shop-item-img">
+                <h3>Starbucks Mug</h3>
+                <p>Enjoy your coffee in our iconic mug collection.</p>
+                <a href="https://www.starbucks.com/menu/product/2123713/single" target="_blank" class="shop-button">Buy Now</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="shop-item">
+                <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/71d3780c_be6e_46b1_ab01_8a2bce244a7f_1_1_2d1afadaa0.png" alt="Gift Card" class="shop-item-img">
+                <h3>Gift Cards</h3>
+                <p>Share the love of coffee with our exclusive gift cards.</p>
+                <a href="https://www.starbucks.in/giftcards/customization" target="_blank" class="shop-button">Buy Now</a>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+
+</section>
+
+</body>
+</html>
